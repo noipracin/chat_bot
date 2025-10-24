@@ -1,0 +1,10 @@
+import os
+
+# Настройки бота
+BOT_TOKEN = "8246619082:AAH2r5PFRDeNRCGfgOFPEFzD0a5bApy7EgU"
+
+# Состояния диалога
+GET_NAME, MAIN_MENU, CHATTING, JOKE, CHOOSE_CATEGORY, VIEW_PRODUCTS, GET_ADDRESS, PRODUCT_DETAIL = range(8)
+
+# Пути
+IMAGES_DIR = "images"
